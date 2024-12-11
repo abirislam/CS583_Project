@@ -8,5 +8,5 @@
 ### Additional Features
 - The program will run multiple times to iteratively find the best edge detection threshold for the image that produce 4 corners
 - Thus it may take some time for the program to run
-- It will output the threshold and corners in each iteration
+- It will output the threshold and number of corners in each iteration
 - Once it determines the best threshold, it will then produce the rectified image
