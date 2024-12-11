@@ -17,7 +17,7 @@ figure(1);
 imshow(imResize);
 axis on;
 title('Part 1: resized input');
-imwrite(imResize, "output/imResize.png");
+imwrite(imResize, "imResize.png");
 
 imResizeGray = rgb2gray(imResize);
 
