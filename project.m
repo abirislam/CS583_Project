@@ -1,5 +1,6 @@
 clear all;
 close all;
+
 %%%%%%%%%%%
 % (Part 1)
 %%%%%%%%%%%
@@ -23,9 +24,7 @@ function getAllCorners = getAllCorners(edges, widthResize, heightResize)
     axis on;
     title('Part 1: edges');
     imwrite(edges, "edges.png");
-    
-    
-    
+
     %%%%%%%%%%%
     % (Part 2)
     %%%%%%%%%%%
@@ -133,11 +132,7 @@ function getAllCorners = getAllCorners(edges, widthResize, heightResize)
             end
         end
     end
-    
-    
-    
-    
-    
+
     % get all corners within bounds
     syms x y;
     validCorners = []; 
