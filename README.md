@@ -6,7 +6,7 @@
 - Two example images have been provided for you to test, namely test_image.jpg and test_image2.jpg
 
 ### Additional Features
-- The program will run multiple times to iteratively find the best thresholds for the image that produce 4 corners
+- The program will run multiple times to iteratively find the best edge detection threshold for the image that produce 4 corners
 - Thus it may take some time for the program to run
 - It will output the threshold and corners in each iteration
 - Once it determines the best threshold, it will then produce the rectified image
