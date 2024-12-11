@@ -49,7 +49,7 @@ function getAllCorners = getAllCorners(edges, widthResize, heightResize)
     imshow(edges);
     axis on;
     title('Part 1: edges');
-    imwrite(edges, "output/edges.png");
+    imwrite(edges, "edges.png");
     
     
     
@@ -82,7 +82,7 @@ function getAllCorners = getAllCorners(edges, widthResize, heightResize)
     imshow(lineVM/255);
     axis on;
     title('Part 2: 2D hough transform histogram');
-    imwrite(lineVM/255, "output/lineVM.png");
+    imwrite(lineVM/255, "lineVM.png");
     
     
     
@@ -125,7 +125,7 @@ function getAllCorners = getAllCorners(edges, widthResize, heightResize)
     axis on;
     titleStr = sprintf("Part 3: %d selected lines superimposed onto edges image", numTopLines);
     title(titleStr);
-    imwrite(imLines, "output/imLines.png")
+    imwrite(imLines, "imLines.png")
     
     
     
@@ -262,7 +262,7 @@ figure(5);
 imshow(imCorners);
 axis on;
 title('Part 4: corners superimposed onto edges image');
-imwrite(imCorners, "output/imCorners.png");
+imwrite(imCorners, "imCorners.png");
 
 
 
@@ -339,4 +339,4 @@ figure(6);
 imshow(imRectified);
 axis on;
 title('Part 5: rectified');
-imwrite(imRectified, 'output/imRectified.png');
+imwrite(imRectified, 'imRectified.png');
