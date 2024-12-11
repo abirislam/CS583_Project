@@ -21,8 +21,6 @@ imwrite(imResize, "imResize.png");
 
 imResizeGray = rgb2gray(imResize);
 
-
-
 %%%%%%%%%%%
 % (Part 1)
 %%%%%%%%%%%
